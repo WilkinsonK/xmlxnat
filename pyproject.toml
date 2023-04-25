@@ -20,5 +20,5 @@ dynamic = ["version", "dependencies"]
 exclude = ["tests"]
 
 [tool.setuptools.dynamic]
-version = {attr = "tasxnat.__version__"}
+version = {attr = "xmlxnat.__version__"}
 dependencies = { file = "requirements.txt" }
